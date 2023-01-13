@@ -202,6 +202,9 @@ footer a:hover {
   .fist__blog {
     width: 300px;
   }
+  .blog-image {
+    width: 300px;
+  }
   /* ------ ---footer----------- */
   footer {
     display: block;

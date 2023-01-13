@@ -210,9 +210,9 @@ footer a:hover {
     color: #f2924c;
   }
   /* ------ ---form-section----------- */
-  /* form-sectin */
+  /* ---------------form-sectin----------- */
   .center {
-    font-size: 25px;
+    font-size: 20px;
   }
   .form-section-bottom {
     display: block;
@@ -224,11 +224,12 @@ footer a:hover {
   .submit,
   .message,
   .address {
-    width: 80%;
-    margin-left: 40px;
+    width: 90%;
+    margin-left: 20px;
   }
   .address {
     margin-top: 50px;
+    padding: 0;
   }
   /* ------ ---footer----------- */
   footer {
