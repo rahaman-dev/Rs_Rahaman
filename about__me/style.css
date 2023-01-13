@@ -217,7 +217,7 @@ footer a:hover {
 } /* ==================================================================== */
 /* ==================================media-query======================= */
 /* ==================================================================== */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 557px) {
   /* ---------------------------header -----------*/
   .checkbtn {
     display: block;
@@ -260,8 +260,12 @@ footer a:hover {
     padding: 0;
   }
   .about__me__first__section__left {
-    margin-left: 50px;
+    margin-left: 30px;
     padding-top: 60px;
+  }
+  .about__me__first__section__left img {
+    width: 300px;
+    height: 300px;
   }
   .about__me__right__heading {
     padding-top: 20px;
@@ -275,7 +279,7 @@ footer a:hover {
   /* --------------------------------form----------- */
   /* form-sectin */
   .center {
-    font-size: 25px;
+    font-size: 20px;
   }
   .form-section-bottom {
     display: block;
@@ -287,11 +291,12 @@ footer a:hover {
   .submit,
   .message,
   .address {
-    width: 80%;
-    margin-left: 40px;
+    width: 90%;
+    margin-left: 20px;
   }
   .address {
     margin-top: 50px;
+    padding: 0;
   }
   /* --------------------------------------footer------------ */
   footer {
