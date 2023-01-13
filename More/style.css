@@ -343,8 +343,28 @@ footer a:hover {
   /* ------ ---.services ----------- */
   .services {
     display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: #151c2b;
+  }
+  .landing__page {
+    width: 360px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    /* padding: 20px; */
+  }
+  .services__heading {
+    font-size: 30px;
+  }
+  .services__para {
+    margin: 0 20px;
   }
   /* ------ ---more-about----------- */
+  .more__about {
+    display: flex;
+    flex-direction: column-reverse;
+  }
   .more__about__left__seciton {
     margin: 0px;
   }
@@ -352,8 +372,16 @@ footer a:hover {
     font-size: 18px;
   }
   .more__about {
-    display: block;
-    padding: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .text {
+    font-size: 40px;
+    margin-top: 10px;
+    padding: 0;
+  }
+  .more__about__left__seciton__para {
+    width: 300px;
   }
   .hand span {
     font-size: 16px;
@@ -361,6 +389,11 @@ footer a:hover {
   }
   .more__about__right__section {
     margin-top: 50px;
+  }
+  .more__about__right__section__img {
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
   }
   /* ------ ---footer----------- */
   footer {
